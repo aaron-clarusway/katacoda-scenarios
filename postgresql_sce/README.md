@@ -18,13 +18,3 @@ If you have questions or comments, please feel free to create a GitHub issue.
 
 This content is licensed under the [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Maintainers
--------
-
-
-![Crunchy Data](https://github.com/CrunchyData/crunchy-katacoda/assets/avatar.png)
-
-The Crunchy Data Learning Portal Content is maintaind by a team at Crunchy Data. 
-
-[Crunchy Data](https://www.crunchydata.com/) is pleased to sponsor many [open-source projects](https://github.com/CrunchyData/) to help promote support the PostgreSQL community and software ecosystem.
-
