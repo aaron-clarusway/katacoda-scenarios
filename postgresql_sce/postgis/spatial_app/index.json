@@ -1,0 +1,44 @@
+{
+"title": "Cloud Native Spatial Applicaitons",
+"description": "Creating a web spatial application with PostGIS, pg_featureserv, and pg_tileserv.",
+"difficulty": "intermidiate",
+"time": "15 minutes",
+"details": {
+  "steps": [
+    {"title": "Adding pg_featureserv", "text": "01-pg_featureserv.md"},
+    {"title": "Adding pg_tileserv", "text": "02-pg_tileserv.md"},
+    {"title": "Adding our user facing application", "text": "03-adding_a_frontend_UI.md"},
+    {"title": "Adding User-defined Functions", "text": "04-user_defined_functions.md"}
+  ],
+  "intro": {
+    "courseData": "env-init.sh",
+    "code": "set-env.sh",
+    "text": "intro.md",
+    "credits": ""
+  },
+  "finish": {
+    "text": "finish.md"
+  },
+  "assets": {
+    "client": [
+    ]
+  }
+},
+"environment": {
+  "hideintro": false,
+  "showdashboard": true,
+  "dashboards": [
+      {"name": "pg_tileserv", "port": 7800},
+      {"name": "pg_featureserv", "href": "https://[[HOST_SUBDOMAIN]]-9000-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "mapserver", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "Santa Cruz Fire App", "href": "https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com"}],
+  "terminals": [
+        {"name": "pg_tileeserv terminal", "target": "host01"},
+        {"name": "mapserver terminal", "target": "host01"},
+        {"name": "UI terminal", "target": "host01"}],
+  "uilayout": "terminal-iframe"
+},
+"backend": {
+  "imageid": "crunchydata-single1"
+  }
+}
